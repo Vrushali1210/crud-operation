@@ -1,0 +1,84 @@
+.button{ 
+  margin-top: 25px; 
+  height: 35px; 
+  width: 100px; 
+  border-radius: 5px; 
+  border: 1px solid rgb(10, 2, 17); 
+  background-color: rgba(2, 145, 9, 0.808); 
+  color: white; 
+  font-size: 15px; 
+  cursor: pointer; 
+  transition: 03s; 
+} 
+.button:hover{ 
+ background-color: rgba(9, 71, 3, 0.859); 
+} 
+.input-bar{ 
+  padding: 5px; 
+  height: 30px; 
+  width: 280px; 
+  border: 1px solid rebeccapurple; 
+  border-radius: 5px; 
+  outline: none; 
+} 
+
+.add-container{ 
+  display: flex; 
+} 
+/* ************* home page css ************ */ 
+.nav{ 
+  /* background-color:black; */ 
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2); 
+  z-index: 999; 
+  position: sticky; 
+  top: 0; 
+  left: 0; 
+} 
+#home-main{ 
+  width: 80%; 
+  padding: 40px; 
+  height:max-content; 
+  margin:20px auto; 
+  background-color: white; 
+  border-radius:20px; 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px 
+30px; 
+} 
+.home-up{ 
+width:100%; 
+display:flex; 
+justify-content: space-between; 
+align-items:center; 
+height:max-content; 
+} 
+.up{ 
+background-color:white; 
+padding:20px 10px; 
+border-radius:10px; 
+width:max-content; 
+} 
+.home-down{ 
+border-top:2px solid grey; 
+padding-top:10px; 
+width:100%; 
+margin-top: 20px; 
+display:flex; 
+flex-wrap: wrap; 
+justify-content:space-around; 
+} 
+.heding{ 
+margin-bottom:20px; 
+color:#110758; 
+} 
+th,td{ 
+padding:15px 20px; 
+border:1px solid grey; 
+} 
+span{ 
+font-size:18px; 
+color:#110758; 
+font-weight: 600; 
+} 
+table { 
+border-spacing: 0; 
+}
